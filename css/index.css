@@ -1,0 +1,54 @@
+body{
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    background-color: 	#00CD66;
+}
+
+main{
+    align-self: center;
+}
+
+form {
+    padding: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    border: 2px solid #FFF;
+    width: 90vh;
+}
+
+.index-btn{
+    cursor: pointer;
+    width: 100%;
+    height: 35px;
+    margin-top: 10px;
+    background-color: #00CD66;
+    color: #FFF;
+    font-weight: 900;
+    border-radius: 10px;
+    border: 2px solid #FFF;
+    
+    
+}
+
+
+@media screen and (max-width: 500px){
+
+    form{
+        width: 40vh;
+        padding: 30px;
+    }
+    
+}
+
+.error{
+    background-color: #F00;
+    border: 1px solid red;
+    border-radius: 0px 0px 15px 15px;
+    text-align: center;
+    color: white;
+    height: 30px;
+    padding: 5px;
+    display: none;
+
+}
