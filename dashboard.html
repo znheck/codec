@@ -1,12 +1,48 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    :D
-</body>
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/global.css">
+    <title>Projeto Z</title>
+
+</head>
+
+<body>
+    <header>
+        <nav class="navtop">
+            <a href="#">Entradas</a>
+            <a href="#">Saídas</a>
+            <a href="#">Entradas e saídas</a>
+        </nav>
+    </header>
+    <main>
+        <section class="container">
+            <div class="panel-top">
+                <form action="add" method="get">
+                    <label for="desd-gasto">Gasto:
+                        <input type="text" name="desc-gasto" id="" placeholder="Digite aqui a descrição do gasto."><br>
+                    </label>
+                    <label for="valor">Valor</label>
+                    <input type="number" name="valor" id="" placeholder="Digite aqui o valor da transação.">
+                    <label for="data">Data da transação:</label>
+                    <input type="date" name="data" id="data">
+                    <label for="tipo">Escolha o tipo de transação</label>
+                    <select name="tipo" id="tipo">
+                        <option value="Escolha-aqui">Escolha aqui</option>
+                        <option value="Entrada">Entrada</option>
+                        <option value="Saida">Saída</option>
+                    </select>
+
+                </form>
+
+            </div>
+        </section>
+
+    </main>
+
+</body>
 </html>

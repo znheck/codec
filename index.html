@@ -1,34 +1,45 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Projeto Z</title>
-    <link rel="stylesheet" href="css/global.css">
-    <link rel="stylesheet" href="css/index.css">
-    <script>
-    
-        function login() {
-            console.log('clicked')
-        }</script>
-    
-</head>
-<body>
-    <main>
-            <form>  
-                    <label for="email">Email</label><br>
-                    <input type="email" name="email" id="email" class="label-id"placeholder="Digite seu e-mail."><br><br>
-                    <div  class="error">O e-mail digitado é inválido.</div>
-                    <label for=password-login">Senha</label><br>
-                    <input type="password" class="label-id" name="password-login" id="password" placeholder="Digite sua senha."><br><br>
-                    <div class="error">A senha digitada está incorreta ou é inválida.</div>
-                    <button type="button" value="Login" class="index-btn" id="login-btn" onclick="login()">Login</button>
-                    <button type="button" value="pw" class="index-btn" id="pw-btn">Recupere sua senha</button>
-                    <button type="button" value="re" class="index-btn" id="re-btn" onclick="register()">Cadastro</button>
-            </form>
-    </main>
-    
-</body>
-
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Projeto Z</title>
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/login.js"></script>
+</head>
+
+<body>
+    <main>
+            <form method="get">  
+
+                    <label for="email">Email</label><br>
+
+                    <input type="email" name="email" id="email" class="label-id"placeholder="Digite seu e-mail."><br><br>
+
+                    <div  class="error">O e-mail digitado é inválido.</div>
+
+                    <label for=password-login">Senha</label><br>
+
+                    <input type="password" class="label-id" name="password-login" id="password" placeholder="Digite sua senha."><br><br>
+
+                    <div class="error">A senha digitada está incorreta ou é inválida.</div>
+
+                    <button type="button" value="Login" class="index-btn" id="login-btn" onclick="login()">Login</button>
+
+                    <button type="button" value="pw" class="index-btn" id="pw-btn" onclick="register()">Recupere sua senha</button>
+
+                    <button type="button" value="re" class="index-btn" id="re-btn" onclick="recoverpassowrd()">Cadastro</button>
+
+            </form>
+
+    </main>
+
+    
+
+</body>
+
+
+
 </html>

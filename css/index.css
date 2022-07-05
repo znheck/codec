@@ -1,54 +1,148 @@
-body{
-    display: flex;
-    height: 90vh;
-    justify-content: center;
-    background-color: 	#00CD66;
-}
-
-main{
-    align-self: center;
-}
-
-form {
-    padding: 50px;
-    border: 1px solid black;
-    border-radius: 10px;
-    border: 2px solid #FFF;
-    width: 90vh;
-}
-
-.index-btn{
-    cursor: pointer;
-    width: 100%;
-    height: 35px;
-    margin-top: 10px;
-    background-color: #00CD66;
-    color: #FFF;
-    font-weight: 900;
-    border-radius: 10px;
-    border: 2px solid #FFF;
-    
-    
-}
-
-
-@media screen and (max-width: 500px){
-
-    form{
-        width: 40vh;
-        padding: 30px;
-    }
-    
-}
-
-.error{
-    background-color: #F00;
-    border: 1px solid red;
-    border-radius: 0px 0px 15px 15px;
-    text-align: center;
-    color: white;
-    height: 30px;
-    padding: 5px;
-    display: none;
-
+body{
+
+    display: flex;
+
+    height: 90vh;
+
+    justify-content: center;
+
+    background-color: 	#00CD66;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+
+}
+
+label{
+    color: #FFF;
+
+}
+
+
+.label-id{
+    padding: 10px;
+    width: 100%;
+    border-radius: 3px;
+    border: none;
+}
+
+
+
+.label-id:focus {
+    border: 1px none;
+    outline: 0;
+
+}
+
+
+
+
+
+.index-btn:hover{
+    background-color:  black;
+    border: 1px solid black;
+    transition: 500ms;
+}
+
+
+main{
+
+    align-self: center;
+
+}
+
+
+
+form {
+
+    padding: 50px;
+
+    border: 1px solid black;
+
+    border-radius: 10px;
+
+    border: 2px solid #FFF;
+
+    width: 90vh;
+
+}
+
+
+
+.index-btn{
+
+    cursor: pointer;
+
+    width: 100%;
+
+    height: 35px;
+
+    margin-top: 10px;
+
+    background-color: #00CD66;
+
+    color: #FFF;
+
+    font-weight: 900;
+
+    border-radius: 10px;
+
+    border: 2px solid #FFF;
+
+    
+
+    
+
+}
+
+
+
+
+
+@media screen and (max-width: 500px){
+
+
+
+    form{
+
+        width: 40vh;
+
+        padding: 30px;
+
+    }
+
+    
+
+}
+
+
+
+.error{
+
+    background-color: #F00;
+
+    border: 1px solid red;
+
+    border-radius: 0px 0px 15px 15px;
+
+    text-align: center;
+
+    color: white;
+
+    height: 30px;
+
+    padding: 5px;
+
+    display: none;
+
+
+
 }
